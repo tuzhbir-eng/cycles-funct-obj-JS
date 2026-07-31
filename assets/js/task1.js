@@ -53,7 +53,7 @@ console.groupEnd();
 console.group(
   "3. ✅ Користувач вводить два цілі числа в довільному порядку. Знайти суму чисел в межах від меншого до більшого.",
 );
-console.groupEnd();
+;
 console.group("==========================While==============================");
 let whileNum1 = Number(prompt("Type first number(while)"));
 let whileNum2 = Number(prompt("Type second number(while)"));
@@ -68,7 +68,6 @@ while (counter <= max) {
   counter++;
 }
 console.log(`Sum from ${min} to ${max}: ${sum}`);
-console.groupEnd();
 console.groupEnd();
 
 console.group("============================For==============================");
@@ -100,4 +99,5 @@ do {
   counter3++;
 } while (counter3 <= max3);
 console.log(`Sum from ${min3} to ${max3}: ${sum3}`);
+console.groupEnd();
 console.groupEnd();
