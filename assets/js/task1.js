@@ -18,4 +18,10 @@ console.groupEnd();
 
 
 
-
+console.group("=====Do-while=====");
+let num3 = 25;
+do {
+    console.log(num3);
+    num3--;
+} while (num3>=0)
+console.groupEnd();
