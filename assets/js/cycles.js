@@ -101,3 +101,4 @@ do {
 console.log(`Sum from ${min3} to ${max3}: ${sum3}`);
 console.groupEnd();
 console.groupEnd();
+  
