@@ -55,13 +55,12 @@ console.groupEnd();
 console.group(
   "3. ✅ Користувач вводить два цілі числа в довільному порядку. Знайти суму чисел в межах від меншого до більшого.",
 );
-;
 console.group("==========================While==============================");
 let whileNum1 = Number(prompt("Type first number(while)"));
 let whileNum2 = Number(prompt("Type second number(while)"));
 
-let min = Math.min(whileNum1, whileNum2);
-let max = Math.max(whileNum1, whileNum2);
+const min = Math.min(whileNum1, whileNum2);
+const max = Math.max(whileNum1, whileNum2);
 
 let sum = 0;
 let counter = min;
