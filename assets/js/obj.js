@@ -89,7 +89,7 @@ Book.prototype.setPrice = function (newPrice) {
 const book1 = new Book("Taras Shevchenko", "Kobzar", 1840, "Kyiv,  Kobzar", 500);
 const book2 = new Book("Lorem ipsum", "Sotonn", 1876, "Lviv,  Barvinok", 500);
 
-console.group("Test");
+
 console.log("book1: ", book1);
 console.log("book2: ", book2);
 
@@ -97,6 +97,6 @@ console.log("book2: ", book2);
 console.log(book1.getDate());
 console.log(book2.getDate());
 book2.setPrice(1000);
-console.groupEnd();
+
 
 console.groupEnd();
